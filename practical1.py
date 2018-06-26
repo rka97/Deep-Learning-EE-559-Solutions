@@ -22,6 +22,7 @@ def multiple_views():
     z.fill_(3)
     return x
 
+
 # 2 - Eigendecomposition
 def eigen_decomp():
     x = Tensor(20, 20).normal_()
